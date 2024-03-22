@@ -1,0 +1,18 @@
+﻿@model TodoItem
+
+<h2 class="text-center mt-5 mb-4">Add New Todo Item</h2>
+
+<link href="~/css/stylecreate.css" rel="stylesheet" />
+
+<div class="container">
+    <form asp-action="Create">
+        <div class="form-group">
+            <label asp-for="TaskDescription" class="control-label">Task Description</label>
+            <input asp-for="TaskDescription" class="form-control" placeholder="Enter task description" />
+            <span asp-validation-for="TaskDescription" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Create</button>
+    </form>
+
+    <a asp-action="Index" class="btn btn-secondary btn-block mt-3">Back to List</a>
+</div>

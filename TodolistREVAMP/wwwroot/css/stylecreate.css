@@ -1,0 +1,47 @@
+﻿/* stylecreate.css */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    background-color: #ff6a00;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+    .btn-primary:hover {
+        background-color: #B7672D;
+        border-color: #0056b3;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
